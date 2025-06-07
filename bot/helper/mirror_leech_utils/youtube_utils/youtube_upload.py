@@ -253,7 +253,7 @@ class YouTubeUpload(YouTubeHelper):
 
         # Default video metadata
         title = file_name
-        description = f"Uploaded by Mirror-leech-telegram-bot\n\nOriginal filename: {file_name}"
+        description = f"Uploaded by Leyon\n\nOriginal filename: {file_name}"
         tags = ["mirror-leech-bot", "telegram-bot", "upload"]
         category_id = "22"  # People & Blogs
         privacy_status = "private"  # unlisted, private, public
