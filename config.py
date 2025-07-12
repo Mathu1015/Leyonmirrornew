@@ -1,5 +1,5 @@
 # REQUIRED CONFIG
-BOT_TOKEN = "7221323815:AAHn0g267xdMvY0Y65SOeHtsGz1LYwhQUug"
+BOT_TOKEN = "8036498730:AAFF8yTVZ-VHLBvZjLTzmsxBfuuAo1LAR1E"
 OWNER_ID = 5387108114
 TELEGRAM_API = 26257599
 TELEGRAM_HASH = "cbdf90a6844992b76e143656f6e07562"
@@ -12,7 +12,7 @@ TG_PROXY = {}  # Example: {"scheme": "socks5", "hostname": "11.22.33.44", "port"
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""  # Suffix to add to all bot commands
 AUTHORIZED_CHATS = "-1002199661791"  # Space separated chat_id/user_id to authorize
-SUDO_USERS = ""  # Space separated user_id for sudo access
+SUDO_USERS = "5387108114"  # Space separated user_id for sudo access
 DEFAULT_UPLOAD = ""  # Default uploader if -ul is not specified. Options: "yt" (YouTube), "gd" (Google Drive), "rc" (Rclone), or "" (empty for no specific default).
 FILELION_API = ""
 STREAMWISH_API = ""
@@ -35,7 +35,7 @@ TOKEN_TIMEOUT = 0  # Timeout in seconds for user tokens (0 for no timeout)
 PAID_CHANNEL_ID = -1002228999442  # Channel ID users must join to bypass token
 PAID_CHANNEL_LINK = ""  # Invite link for the paid channel
 SET_COMMANDS = True  # Register bot commands with BotFather on startup
-METADATA_KEY = ""  # Key for tagging/fetching metadata
+METADATA_KEY = "LeyonRipz"  # Key for tagging/fetching metadata
 WATERMARK_KEY = ""  # Key for watermarking files
 LOG_CHAT_ID = 0  # Chat ID for sending leech logs
 LEECH_FILENAME_CAPTION = ""  # Template caption for leeched files
@@ -81,7 +81,7 @@ USENET_SERVERS = [  # List of Usenet server configurations
 
 # Update
 UPSTREAM_REPO = (
-    "https://github.com/Mathu1015/Leyonmirrornew"  # Upstream repository for updates
+    "https://github.com/Mathu1015/aeo"  # Upstream repository for updates
 )
 UPSTREAM_BRANCH = "main"  # Default branch for updates
 
@@ -94,7 +94,7 @@ HYBRID_LEECH = (
     False  # Switch between bot/user session based on file size (Premium only)
 )
 LEECH_FILENAME_PREFIX = ""  # Prefix for leeched filenames
-LEECH_DUMP_CHAT = []  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
+LEECH_DUMP_CHAT = [-1002037475659]  # List of chat_ids or channel_ids to dump leeched files, e.g., [-100123456789, "channel_username"]
 THUMBNAIL_LAYOUT = ""  # Thumbnail layout for uploads (e.g., 2x2, 3x3)
 
 # qBittorrent/Aria2c
